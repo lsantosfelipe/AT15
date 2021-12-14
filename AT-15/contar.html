@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylecontar.css">
+
+    <title>Vamos Contar</title>
+
+</head>
+<body>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="contar.html">Vamos Contar</a></li>
+        <li><a href="tabuada.html">Tabuada</a></li>
+      </ul>
+    </div>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+
+    <section>
+        <div id="dados">
+            <p>Início: <input type="number" name="inicio" id="txti"></p>
+            <p>Fim: <input type="number" name="fim" id="txtf"></p>
+            <p>Passo: <input type="number" name="passo" id="txtp"></p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
+        </div>
+        <div id="res">
+            Preencha os campos e clique em "Contar"!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Filipe Santos Lima </p>
+    </footer>
+
+    <script src="js/contar.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styletabuada.css">
+
+    <title>Tabuada</title>
+
+    
+</head>
+<body>
+    <div class = "menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="contar.html">Vamos Contar</a></li>
+            <li><a href="tabuada.html">Tabuada</a></li>
+        </ul>
+    </div>
+
+      
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <section>
+        <div>
+            <p> Número: <input type="number" name="num" id="txtn">
+                <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+        </div>
+        <div id = "res">
+            <select name="tabuada" id="seltab" size="10">
+                <option> Digite um número acima!</option>
+            </select>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Filipe Santos Lima </p>
+    </footer>
+
+    <script src="js/tabuada.js"></script>
+</body>
+</html>
